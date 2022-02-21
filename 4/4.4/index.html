@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KML圖層套疊（TGOS Map API）</title>
+    <script type="text/javascript" src="https://api.tgos.tw/TGOS_API/tgos?ver=2&amp;AppID=yourAPIId
+        &amp;APIKey=yourAPIKey"></script>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #tmap {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="tmap"></div>
+    <script>
+        const tMap = new TGOS.TGOnlineMap(document.getElementById("tmap"), "EPSG3857");
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>

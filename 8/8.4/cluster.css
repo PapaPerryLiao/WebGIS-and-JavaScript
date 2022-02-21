@@ -1,0 +1,19 @@
+.cluster {
+    border: 2px solid grey;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cluster.cluster-green {
+    background-color: green;
+}
+
+.cluster.cluster-yellow {
+    background-color: yellow;
+}
+
+.cluster.cluster-red {
+    background-color: red;
+}

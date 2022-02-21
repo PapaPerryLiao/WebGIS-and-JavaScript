@@ -1,0 +1,941 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CpQEDgIAACz1lcRf4UGR35FhBe_Xmuq3lY1Hymb10vQf-WS72gUlk6SBzVqLYq3lwwLF1YhzNZ0JdN859W4pIUKNvzgz329BHMnffv57tmtCvWLvgAGqRPcuS5n7XsdsfScjZkQjlpzTwaF1cdaVQqymzNNyxK4myEFZ34amS_WRV0YETSbkbG02h61Rn6XV1dbHU4VM0TF0ROXPICOBObG60WL1M8Yu8GGZzvdPycyyOMvGU3Rxtm4k0Zma_9waxrA3KLeOARhALu2JZpLWvSQYyttpQmQYww1cenpkQbj3sRRnXsaqCqb8wqhMRZmrJhBD2iGAA64UEsc_UbON0ndnnO4JiiGzTWJ_Jj-hL611SrRI4scixqBB6LsHg8rtXL2zXemQMnvQrNasFsJ7GOfGYlZE6Npj_G0baU6UragMFumgWLYJWPPbvWtrrIeStFpOxhOZJVItmwJa5Srr0xsOGQas57nJevSDsnOoZasofchva9c1sEECa0_I7j7fwMa4I1qaqVqHyk3Fc6LGcdJk2TW2uvoeERbiyT-CK2Gm_yEZjKaYek0kZedklzrrYJ_DJPybCQfAxhPELHan7mRNQCdmq-mDgnu-fVfzd93hUw8RGyF01L4Dw14hreWKuGbJqfOmbEbB7_Ug17TPNl3Jvx1JLj180GcmNTtVaVKFa7KVPsdIV-SsncPA46WWwne4oGq90xIQD1qvxdX4Kd1d3j1LoybT5hoU-bcnev_PWDPBuoWHce-8wI0YieU",
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 25.0360954,
+               "lng" : 121.5497538
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.03744457989272,
+                  "lng" : 121.5510527798928
+               },
+               "southwest" : {
+                  "lat" : 25.03474492010728,
+                  "lng" : 121.5483531201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "name" : "Bianco Taipei 義式餐廳",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100724515792757321408\"\u003eJenny ko\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAvDQDtJ6TCTXqySUklg5ANzIX-lUD4RIhzy09WoK5ucO3goHlU9mNyHYcEQHM0oLdfT6JQ_EtNsJN03iRxRwnOIwuW-rwuWqlrEluhxW4f0JD-4aRdBg1DBc0A2mz7JS-EhDUvnYuSyBmUKW2nwAv6HJoGhTrp_akdk3SCtxEnndzcbJPCDDMcw",
+               "width" : 5333
+            }
+         ],
+         "place_id" : "ChIJLU9nE86rQjQR3zOi0CCtagg",
+         "plus_code" : {
+            "compound_code" : "2GPX+CW 大安區 台北市",
+            "global_code" : "7QQ32GPX+CW"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJLU9nE86rQjQR3zOi0CCtagg",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 652,
+         "vicinity" : "大安區仁愛路四段112巷19號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 25.036151,
+               "lng" : 121.546999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.03743522989272,
+                  "lng" : 121.5483499298928
+               },
+               "southwest" : {
+                  "lat" : 25.03473557010728,
+                  "lng" : 121.5456502701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "name" : "KIKI 餐廳(台北東豐店)",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114276733220115345692\"\u003eTaiyu Bombom\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAqLLHdXUj3BAuAsTYTSns7Kx5ByDZZGqwJdv4PGhqbLivhT-Cwwa3seVYZUtwVYPUkoF6RN-Dx8PvOqCa9rTl537dVWZEAlI6NSFfCkWjfxo-8L8AB9x6ef5dG64ORLvrEhA2t7LTjSqANwaO6lJyK9bdGhTg3Wms0xmwIXqILLvRq881RxAmiw",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJJZ1M89GrQjQR3e8BQB9PdsE",
+         "plus_code" : {
+            "compound_code" : "2GPW+FQ 大安區 台北市",
+            "global_code" : "7QQ32GPW+FQ"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJJZ1M89GrQjQR3e8BQB9PdsE",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1351,
+         "vicinity" : "大安區東豐街51號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 25.0354933,
+               "lng" : 121.5660115
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.03702737989273,
+                  "lng" : 121.5673672798927
+               },
+               "southwest" : {
+                  "lat" : 25.03432772010728,
+                  "lng" : 121.5646676201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "name" : "the Chips 美式餐廳 (光復店)",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109937137203507300712\"\u003eSin Kao\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAABl4YO1ly2B53vK6LnVn-z96JHJSH5aoPIx4uM5CD0ZqZ4GkpH97lNQ4Z3vocPG3_2BsdjqTyH88HwAOVjfUsTQjKf7K9NRYS8yNigKFJ1knuXtx6VZlirJZXGQm-kco4EhBgH-3w03Ob1RtYlkCgzLTjGhTpci_EvM7rywkmS0oQdS3dzeJyeg",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJHd7EPMarQjQRNjXqec_9Cys",
+         "plus_code" : {
+            "compound_code" : "2HP8+5C 信義區 台北市",
+            "global_code" : "7QQ32HP8+5C"
+         },
+         "price_level" : 2,
+         "rating" : 3.7,
+         "reference" : "ChIJHd7EPMarQjQRNjXqec_9Cys",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 814,
+         "vicinity" : "信義區松壽路12號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 25.0404809,
+               "lng" : 121.5478333
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.04184582989272,
+                  "lng" : 121.5491834298927
+               },
+               "southwest" : {
+                  "lat" : 25.03914617010728,
+                  "lng" : 121.5464837701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "name" : "Gudetama Chef-蛋黃哥五星主廚餐廳",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3792,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110612559772325061978\"\u003eなおかり\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAzoOT8uQ8aVMmH0pM6MbhyAr4WBesG2MoO_gODwR6TIr0nzcMtjSq7al-6TnxMYU4rfgiFUwqi2pJJ1l8Xh6lVniBjrJJaeEiAepen4AVEBsHiwF7OUAwSGffmVbyD8M_EhDSIW7rG2nHtGvBlc2msCG1GhSdZS2hJMOkLFCeK0Pm3nDTMLLDiA",
+               "width" : 5056
+            }
+         ],
+         "place_id" : "ChIJ2ZjFBdCrQjQR7NL9TyaOyxI",
+         "plus_code" : {
+            "compound_code" : "2GRX+54 大安區 台北市",
+            "global_code" : "7QQ32GRX+54"
+         },
+         "price_level" : 3,
+         "rating" : 4,
+         "reference" : "ChIJ2ZjFBdCrQjQR7NL9TyaOyxI",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1113,
+         "vicinity" : "大安區敦化南路一段236巷12號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 25.038892,
+               "lng" : 121.547985
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.04024872989272,
+                  "lng" : 121.5493350298927
+               },
+               "southwest" : {
+                  "lat" : 25.03754907010727,
+                  "lng" : 121.5466353701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "name" : "好米亞 Goodies Cuisine Bistrot",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4320,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106492000065211258402\"\u003eKarena LIAO\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAICfRkC86ylcoFLs0PrL1iPTaw_piVv_BUSdbxNwlJdwlsY1M4BaPJ8wYJzOjQ7VWU7kJIef97J34iR1cyFbt6788H_Ji6XbDTnm0Qw4j4uGTgpcKbcO7qV861UApDhwVEhCWN2E0XGv20gtblEvGJiKHGhTNjTGqoNWTlCdRBxLa1HbwTpUkNQ",
+               "width" : 5760
+            }
+         ],
+         "place_id" : "ChIJly19jbyrQjQRBN17akR0XKo",
+         "plus_code" : {
+            "compound_code" : "2GQX+H5 大安區 台北市",
+            "global_code" : "7QQ32GQX+H5"
+         },
+         "price_level" : 3,
+         "rating" : 4.4,
+         "reference" : "ChIJly19jbyrQjQRBN17akR0XKo",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1949,
+         "vicinity" : "大安區敦化南路一段270巷6號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 25.039132,
+               "lng" : 121.557133
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.04057957989273,
+                  "lng" : 121.5584856798927
+               },
+               "southwest" : {
+                  "lat" : 25.03787992010728,
+                  "lng" : 121.5557860201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "name" : "筷子餐廳",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3648,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100822738177873292781\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA8jzf_Lh8Y_iGNG96xWE_9IWdhZzbKlhqrb7EEOfvXH0EhGgGYkkDTcBkCJnRWyz6LEtOGByfxVEKrTGLC0bmcgFLPivNPmnKh7vVXXYteYVrwgqMQhcpzzWmayAryi-1EhAnjhU9n0VHe1MeulULMwokGhSSjxfH7TwhrVTn59Wz6JSTwei_kg",
+               "width" : 5472
+            }
+         ],
+         "place_id" : "ChIJySwN8durQjQRpe5ndb5Zriw",
+         "plus_code" : {
+            "compound_code" : "2HQ4+MV 大安區 台北市",
+            "global_code" : "7QQ32HQ4+MV"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJySwN8durQjQRpe5ndb5Zriw",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 373,
+         "vicinity" : "大安區光復南路290巷1號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 25.0254913,
+               "lng" : 121.5494109
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.02681217989272,
+                  "lng" : 121.5507576798927
+               },
+               "southwest" : {
+                  "lat" : 25.02411252010728,
+                  "lng" : 121.5480580201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "name" : "月之意大利餐廳",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102300636927103901836\"\u003eYang Celia\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAmJFjrpL7r4l2GByA0oDRyaX35hNRWloJunXH3iNxm8EsNH-R-kO0QBP9ol6-meI4MZc97dRuZPu_fHnEh7qG14bieb93zm1EHfvTZwZW2VullqvnW0l0GRmklDBbJjGqEhDQdzMLmUHTSbefF9M009xuGhTFoZVmeTOvAV50seIonDX259-lWQ",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJw3tHETKqQjQR_s7m4QZEEBY",
+         "plus_code" : {
+            "compound_code" : "2GGX+5Q 大安區 台北市",
+            "global_code" : "7QQ32GGX+5Q"
+         },
+         "price_level" : 2,
+         "rating" : 4.3,
+         "reference" : "ChIJw3tHETKqQjQR_s7m4QZEEBY",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 546,
+         "vicinity" : "大安區敦化南路二段265巷3號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 25.03531,
+               "lng" : 121.5660665
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.03693492989272,
+                  "lng" : 121.5674251798928
+               },
+               "southwest" : {
+                  "lat" : 25.03423527010727,
+                  "lng" : 121.5647255201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "name" : "Moomin café 嚕嚕米主題餐廳",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2936,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106794802939804372504\"\u003eTsai-Ling Chou\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAtVs9BBk4QVKsXKkal-MoFa2U9iCbBBtjh7gPEGK6K8j0_j9HvBDDqhOAnVYky_C2nsW-sxYaVA_0vDpwKTXpLDO2ARQuar3__Y-RDdRBGBru_n29leKbMz8BbmM_i6E1EhCMVsmsqiauX-_MbPmMCX07GhTaXKyfv-xocgB8lUvXLfGY67AoOg",
+               "width" : 3916
+            }
+         ],
+         "place_id" : "ChIJgQPGedCrQjQR1gRW6SCy9Mw",
+         "plus_code" : {
+            "compound_code" : "2HP8+4C 信義區 台北市",
+            "global_code" : "7QQ32HP8+4C"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJgQPGedCrQjQR1gRW6SCy9Mw",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1307,
+         "vicinity" : "信義區松壽路12號4樓"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 25.0382481,
+               "lng" : 121.5473556
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.03951097989272,
+                  "lng" : 121.5487017298927
+               },
+               "southwest" : {
+                  "lat" : 25.03681132010728,
+                  "lng" : 121.5460020701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "name" : "沾美西餐廳",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3088,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104198955763677338861\"\u003e新華許\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAP6bc8kfl9SYioXwNqf40g7A9QIQpds-t2kFGZKRj_KKLK4SYNnGWwj-Iqdhj8LGskCbLM8wCx4ZNEpAjsrazjS3RnhctKgOMLzP_mVzL-OL-bZBw9RZ4PwwJERGc0sz6EhAwyt7vBRCHIl6Upg6JFPTZGhSGXwMO4H9Vhi9fAmjWka1J8SSODg",
+               "width" : 5488
+            }
+         ],
+         "place_id" : "ChIJKwZSytGrQjQRzl585-Teyig",
+         "plus_code" : {
+            "compound_code" : "2GQW+7W 大安區 台北市",
+            "global_code" : "7QQ32GQW+7W"
+         },
+         "price_level" : 3,
+         "rating" : 4.5,
+         "reference" : "ChIJKwZSytGrQjQRzl585-Teyig",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2868,
+         "vicinity" : "大安區仁愛路四段77號B1"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 25.039727,
+               "lng" : 121.555369
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.04111622989273,
+                  "lng" : 121.5567195298927
+               },
+               "southwest" : {
+                  "lat" : 25.03841657010728,
+                  "lng" : 121.5540198701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "name" : "KIKI餐廳 (延吉創始店)",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3721,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116135729626537803425\"\u003eJennifer Chen\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAPJajDlazjQv1LaloTcTQSUp7ZDFj4r-iWYkp-KzywlHEiPx8GKaqlAMIzzn3zwjfGnUNxdoUvM9lQxHy2twhJCk89__cv-T-i4kaLtt-UUCLpx8bFO9K7UKacQ0LjeznEhCnA2AzrQztg5BzIQK4IjB9GhS0_IUpkWHHrhELpRgzBB9gXK9Ddg",
+               "width" : 2794
+            }
+         ],
+         "place_id" : "ChIJO5_SGcarQjQRadYhbXrCZB8",
+         "plus_code" : {
+            "compound_code" : "2HQ4+V4 大安區 台北市",
+            "global_code" : "7QQ32HQ4+V4"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJO5_SGcarQjQRadYhbXrCZB8",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1314,
+         "vicinity" : "大安區光復南路280巷47號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 25.0221203,
+               "lng" : 121.5497062
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.02342442989272,
+                  "lng" : 121.5511030798927
+               },
+               "southwest" : {
+                  "lat" : 25.02072477010728,
+                  "lng" : 121.5484034201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "name" : "亞廬意大利窯烤吃到飽餐廳",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3184,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114506891409460141220\"\u003eAnna Hu\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAALAmCXkRze8aVgHaYh9LQx0A7mdXP0l_Egnrjv24OyzzltSXQaqlzbz1TuJobxIrpxE0cksme-352UV1NahCn25JSdBjLG48qPL-bHDJ0Rh2KRcmpM0fAPBgcUin_zBfkEhDPu_gHJi-YkDqP61G_EAgvGhS-MZQxHbAporGcYvZ5PcmE2QdaBA",
+               "width" : 5664
+            }
+         ],
+         "place_id" : "ChIJCVUzyjGqQjQR4-f5c8-keGc",
+         "plus_code" : {
+            "compound_code" : "2GCX+RV 大安區 台北市",
+            "global_code" : "7QQ32GCX+RV"
+         },
+         "price_level" : 2,
+         "rating" : 4.3,
+         "reference" : "ChIJCVUzyjGqQjQR4-f5c8-keGc",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1648,
+         "vicinity" : "大安區基隆路二段270號2樓"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 25.0335715,
+               "lng" : 121.5649428
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.03486827989272,
+                  "lng" : 121.5664245798927
+               },
+               "southwest" : {
+                  "lat" : 25.03216862010728,
+                  "lng" : 121.5637249201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "name" : "隨意鳥地方101景觀餐廳-求婚 生日 尾牙 婚宴 觀景夜景牛排餐廳推薦-",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2368,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116281843596516052548\"\u003eOscar Wei\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAnVh3lEpbdK5tx9EuU4jOr8Kjy-_rGNUxdQ2ZBHYkxMmaNm1FHTiz1L2CUdaWkGuyqob20RqzrXRTjf-p5B9S_H8V7EdFSKKOpf8X-3jDVbxaKswf4UjeCQXbw6rjSFkeEhBfBuNCDVKnHxD9EGfQVCWQGhSIG7w7oqR3YPCvurAkTK69CqAoaw",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJ1S3Z6barQjQRUnd4BwJ6NkY",
+         "plus_code" : {
+            "compound_code" : "2HM7+CX 信義區 台北市",
+            "global_code" : "7QQ32HM7+CX"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJ1S3Z6barQjQRUnd4BwJ6NkY",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2250,
+         "vicinity" : "信義區信義路五段7號85F"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 25.040598,
+               "lng" : 121.565735
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.04219782989273,
+                  "lng" : 121.5670854798928
+               },
+               "southwest" : {
+                  "lat" : 25.03949817010728,
+                  "lng" : 121.5643858201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "name" : "紫艷中餐廳",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104241911946587753484\"\u003eTC Huang\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAALnif4tmJlucIY_ZFMbDwAsw5nMop-wrNxeRruQmCqVhCdRRL_nr1vp-O94mqAvgODRutjaH8mtK3pc5QMahdCEVJ5K7Yeli9EyhCCDO9Do0ZVV_dB14zzycCyp6Ueh7UEhA7olSxuJLEszTlCqjjNcBzGhQcUl77qJHcEfWDLwATvXT8iUvNdA",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJwd1oV7mrQjQR2ozp9uHcBGw",
+         "plus_code" : {
+            "compound_code" : "2HR8+67 信義區 台北市",
+            "global_code" : "7QQ32HR8+67"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJwd1oV7mrQjQR2ozp9uHcBGw",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 876,
+         "vicinity" : "信義區忠孝東路五段10號31樓"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 25.039664,
+               "lng" : 121.5657554
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.04074132989273,
+                  "lng" : 121.5671111798927
+               },
+               "southwest" : {
+                  "lat" : 25.03804167010728,
+                  "lng" : 121.5644115201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "name" : "KiKi餐廳(信義誠品店)",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3654,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105435093371144646075\"\u003eKiKi餐廳\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA4Kq17u2I7OlmNGIvu6EpMnFmSk1i5Z4tq0tnmd-73UW1Sg7WtzAqNiYUeo0JTdt7IIsJ8qNRupZ73G6vgW4J2aoZNG1FrIlqWNrpbOaa0wdoasoS7Op8ghjlY_rLV9qgEhCAt8V-_uy8QmXpGYP-D4YQGhQsqnG0NjZvbIMpDeJtzprZ80zMPg",
+               "width" : 4842
+            }
+         ],
+         "place_id" : "ChIJX2Fl1LurQjQRQaI37vufetM",
+         "plus_code" : {
+            "compound_code" : "2HQ8+V8 信義區 台北市",
+            "global_code" : "7QQ32HQ8+V8"
+         },
+         "price_level" : 2,
+         "rating" : 4.2,
+         "reference" : "ChIJX2Fl1LurQjQRQaI37vufetM",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1595,
+         "vicinity" : "信義區松高路11號誠品生活商場 4樓"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 25.042958,
+               "lng" : 121.548261
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.04430807989272,
+                  "lng" : 121.5495250298927
+               },
+               "southwest" : {
+                  "lat" : 25.04160842010727,
+                  "lng" : 121.5468253701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "name" : "Herban Kitchen & Bar 二本餐廳",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101441656372613344499\"\u003eYuChia Liu\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAPUcoXbBUU1Y8wIjrkn8PuDIEhumlm5cNqtKS9XPWYwmGBue9dQ5rWSzOvJem-VaYtGY-5g4z7HixsKllWdoZhJkPbJ1MHwpMfB08sWd9s8Pjv0tlS9dibhjR7rDTZlaYEhCggB5mTIgCurc8nJIT605cGhSCWI4Ilu4tFMUah1GVyFVpVE--FQ",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJd0fu0tqrQjQRADPW820NElM",
+         "plus_code" : {
+            "compound_code" : "2GVX+58 大安區 台北市",
+            "global_code" : "7QQ32GVX+58"
+         },
+         "price_level" : 2,
+         "rating" : 4.3,
+         "reference" : "ChIJd0fu0tqrQjQRADPW820NElM",
+         "scope" : "GOOGLE",
+         "types" : [
+            "restaurant",
+            "cafe",
+            "bar",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 1034,
+         "vicinity" : "大安區忠孝東路四段101巷27號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 25.036756,
+               "lng" : 121.5474417
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.03815122989272,
+                  "lng" : 121.5487918798927
+               },
+               "southwest" : {
+                  "lat" : 25.03545157010728,
+                  "lng" : 121.5460922201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "name" : "凱恩斯岩燒餐廳-台北大安店",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111952210433896996562\"\u003eBmo Yang\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAXun0iZz2DsjVtawiLq7qDOyx1FMq9Gr7yYSpN9afkE6GbaEsWAhTPjYiDRjNFAiwYIR6p7fHVj0UH8PbwNkj4cC1BoOsZOrSyF7bQtydA_IpHGZKc-ekmp2nst6cMc82EhCgmvROX56c52onrFhGGKpPGhT_DNiBfzndbcZciKt2a8zb5y-uxw",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJC0ET6dGrQjQRXAeCB9_CIQ0",
+         "plus_code" : {
+            "compound_code" : "2GPW+PX 大安區 台北市",
+            "global_code" : "7QQ32GPW+PX"
+         },
+         "price_level" : 3,
+         "rating" : 4.5,
+         "reference" : "ChIJC0ET6dGrQjQRXAeCB9_CIQ0",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2519,
+         "vicinity" : "大安區四維路14巷6-1號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 25.0401553,
+               "lng" : 121.5556481
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.04156112989272,
+                  "lng" : 121.5569989798928
+               },
+               "southwest" : {
+                  "lat" : 25.03886147010728,
+                  "lng" : 121.5542993201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "name" : "ABV Bar & Kitchen 地中海餐酒館-精釀啤酒餐廳",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3456,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101108033443554583072\"\u003eABV Bar &amp; Kitchen 酒精濃度 地中海餐廳\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAXj3M-db5aiJr0rBjZLtxRqOEVQg3V8hCHS3xQX-2LzRbXi5tz2pMYKZIuqxQboLPw79aaGF41EMlysXtFATUj3LR1ELDegF7vBnj_DqCh0fFTTIK54veeAhQk4HRCLnLEhBhB_RU0dcUlF7eoSvmQsn1GhRhwCaJG--EaT601PXqBWLkU_cpsA",
+               "width" : 5184
+            }
+         ],
+         "place_id" : "ChIJhcpJPsarQjQR_r0Bmb_6zHg",
+         "plus_code" : {
+            "compound_code" : "2HR4+37 大安區 台北市",
+            "global_code" : "7QQ32HR4+37"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJhcpJPsarQjQR_r0Bmb_6zHg",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bar",
+            "liquor_store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 1597,
+         "vicinity" : "大安區光復南路260巷39號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 25.0273723,
+               "lng" : 121.5556873
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.02879747989273,
+                  "lng" : 121.5570611298927
+               },
+               "southwest" : {
+                  "lat" : 25.02609782010728,
+                  "lng" : 121.5543614701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "name" : "TakeOut Burger&Cafe 通化店",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103840026466102162328\"\u003eCheng Feng Sun\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAO4gGsjnc5xu3QXXLIcpvj3RcSjhbhL6fSiM2B8PG03jFQC7W7r6Qe8NYaohB8HbvoxMQh9bNefXOGBK6ew3LwZkg4VpZywgXKPboSQH4orbvSDuiWH7iOLMUQPhsrzLTEhBQci6hHfHcJ8iBEhZkVJZGGhSEufqIopQjNxPwGV8Bb998ZQQ5uA",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJeWFqxzSqQjQR9Ma9PtbcWSc",
+         "plus_code" : {
+            "compound_code" : "2HG4+W7 大安區 台北市",
+            "global_code" : "7QQ32HG4+W7"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJeWFqxzSqQjQR9Ma9PtbcWSc",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 661,
+         "vicinity" : "大安區通化街171巷42號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 25.0437316,
+               "lng" : 121.5447843
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.04502667989273,
+                  "lng" : 121.5461326298927
+               },
+               "southwest" : {
+                  "lat" : 25.04232702010728,
+                  "lng" : 121.5434329701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "name" : "Miacucina 復興店",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2508,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101332935400941469739\"\u003eMiacucina 復興店\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAbpChTWB25DHmDVkEIOJsJZXiuk5J3yKWEuaWTQuKFlcgitnrYy4vwo9L4tzV8gyVvDVMg0yP6dkCEByT_l6WWC5TUSuqfLjf24Y29okyduK9ByIPTt9PAbxbKWYyIQKtEhBKFyWASbxeiDBQOPh1RypDGhTZzUoVmdQfcAgBOso0CydFdq9c5g",
+               "width" : 4461
+            }
+         ],
+         "place_id" : "ChIJ0YnMT9qrQjQRkB7Le9GP8rU",
+         "plus_code" : {
+            "compound_code" : "2GVV+FW 大安區 台北市",
+            "global_code" : "7QQ32GVV+FW"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJ0YnMT9qrQjQRkB7Le9GP8rU",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1681,
+         "vicinity" : "大安區復興南路一段107巷11號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 25.0309067,
+               "lng" : 121.5500229
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.03225202989272,
+                  "lng" : 121.5513725798928
+               },
+               "southwest" : {
+                  "lat" : 25.02955237010728,
+                  "lng" : 121.5486729201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "name" : "貳樓餐廳Second Floor Cafe 敦南店",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115709629479606063006\"\u003eDian L.\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAACROqm3zisGFNygSwfkF1LrVLMTpDeepKUdc_vIxk9pWRVQjvOQF93K-aOZuKqr8wRv3QTCSTVt34vD-L0sW2n1SAR-miMznhD3g9VcWoI5aJPQlgrSYGblquOP42bf-REhBFEUE0qWvcs-wENNJnlnvjGhSL8b-tYJdfJuH3Lt7KpJqbdfpU5Q",
+               "width" : 5333
+            }
+         ],
+         "place_id" : "ChIJLZbPPs2rQjQRgBSz55KQhPc",
+         "plus_code" : {
+            "compound_code" : "2HJ2+92 大安區 台北市",
+            "global_code" : "7QQ32HJ2+92"
+         },
+         "price_level" : 2,
+         "rating" : 4.2,
+         "reference" : "ChIJLZbPPs2rQjQRgBSz55KQhPc",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2712,
+         "vicinity" : "大安區敦化南路二段63巷14號"
+      }
+   ],
+   "status" : "OK"
+}

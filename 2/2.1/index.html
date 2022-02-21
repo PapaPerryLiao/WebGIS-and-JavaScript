@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>點資料圖徵（Google Map API）</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=yourAPIKey"></script>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #gmap {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="gmap"></div>
+    <script>
+        const gMap = new google.maps.Map(document.getElementById('gmap'), {
+            center: { lat: 23.5, lng: 121 },
+            zoom: 7
+        });
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>

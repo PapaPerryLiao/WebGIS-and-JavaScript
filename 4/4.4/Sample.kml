@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KML範例</name>
+	<gx:CascadingStyle kml:id="__managed_style_214EFA3915161ED47186">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>5.45455</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_13982A9BFA161ED47186">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.63636</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_09AD554963161ED47186">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_13982A9BFA161ED47186</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_214EFA3915161ED47186</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0837DEE1AC161ED47186">
+		<name>7號公園</name>
+		<visibility>0</visibility>
+		<LookAt>
+			<longitude>121.5589466675118</longitude>
+			<latitude>25.03471593859833</latitude>
+			<altitude>24.08833206093268</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>19569.01698490139</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_09AD554963161ED47186</styleUrl>
+		<Point>
+			<coordinates>121.5359246760048,25.02861020207136,10.61540725316196</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02472E3294161ED4B673">
+		<name>東區</name>
+		<LookAt>
+			<longitude>121.5589466675118</longitude>
+			<latitude>25.03471593859833</latitude>
+			<altitude>24.08833206093268</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>19569.01698490139</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_09AD554963161ED47186</styleUrl>
+		<Point>
+			<coordinates>121.5653569141115,25.04058279729984,9.955246710713645</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06BA962F7E161ED6AB67">
+		<name>西區</name>
+		<LookAt>
+			<longitude>121.524959676178</longitude>
+			<latitude>25.0465592995727</latitude>
+			<altitude>10.30322926329088</altitude>
+			<heading>359.9999991404968</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>5673.819584508311</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_09AD554963161ED47186</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						121.5072241008119,25.05206963384951,11.19167691769633 121.5044664865824,25.04701986312008,13.88238282770367 121.5004841519364,25.04441420004207,2.85586147330583 121.4999026122514,25.04163000757437,9.23896288147642 121.4972770566788,25.03987663985969,7.10489022174232 121.4998481785664,25.03157541607901,14.27113620035388 121.5073819511331,25.03129892291802,12.62497921507557 121.5151209540555,25.02746978018549,19.65453400705961 121.5189048435729,25.02640738607516,19.78848487827455 121.5221589854576,25.02767728558367,20.75726272944171 121.5226500025497,25.03240582293328,17.23669817943885 121.5243528480807,25.03545812361095,23.6077516156938 121.5172677163171,25.03899477977926,11.5034902475443 121.5196589420673,25.0458853635966,17.1585555963751 121.5207177480858,25.04822338857461,14.91955575587825 121.5137396175434,25.04935761506014,10.38906176753518 121.510091293593,25.05048296216847,21.39053845971448 121.5072241008119,25.05206963384951,11.19167691769633 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0329D2DCDB161ED74127">
+		<name>新店溪</name>
+		<LookAt>
+			<longitude>121.5222209717759</longitude>
+			<latitude>25.01982306892334</latitude>
+			<altitude>9.057786771654648</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>5266.242797712331</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_09AD554963161ED47186</styleUrl>
+		<LineString>
+			<coordinates>
+				121.5041987727055,25.05746421976676,6.919651555772219 121.4949156898512,25.04673289676822,6.966216365774249 121.4857765246064,25.03633367850932,5.875908520869555 121.4850503441916,25.03030564401565,7.004617611921507 121.4882609121968,25.02354916813211,4.111975983336922 121.4891315294005,25.01373951826228,0.7665226724446472 121.4917089481885,25.00997554602898,8.161206108385187 121.4948482424714,25.0095759315642,6.51779035096768 121.5014193016955,25.01387585665865,1.767152988855589 121.5081451835764,25.02156225028838,0.7403930725152486 121.5165554577847,25.02090640218458,9.302183089763499 121.5217442777124,25.01719603861813,7.285084162400793 121.5270060396495,25.01110245998501,7.240140876149674 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

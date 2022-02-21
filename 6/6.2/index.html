@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>上傳Excel</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.5/xlsx.min.js"
+        integrity="sha512-BMIFH0QGwPdinbGu7AraCzG9T4hKEkcsbbr+Uqv8IY3G5+JTzs7ycfGbz7Xh85ONQsnHYrxZSXgS1Pdo9r7B6w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.js"></script>
+    <style>
+        #lmap {
+            height: 100%;
+        }
+
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #div_upload {
+            width: 100px;
+            height: auto;
+            position: absolute;
+            left: 5px;
+            bottom: 5px;
+            z-index: 999;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div_upload">
+        <input type="file" id="upload" />
+    </div>
+    <div id="lmap"></div>
+    <script>
+        const lMap = L.map(document.getElementById("lmap"), {
+            center: [23.5, 121],
+            zoom: 7,
+            crs: L.CRS.EPSG3857,
+        });
+        L.tileLayer(
+            "https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoicGVycnlsaWFvIiwiYSI6ImNrdGVkYWJueTJveWEycm84NzZrMXJyZjAifQ.s8EyAc5U3E1c7wcN1qlE9w",
+            {
+                maxZoom: 18,
+                attribution:
+                    '© <a href="https://www.mapbox.com/feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+                id: "mapbox.streets",
+            }
+        ).addTo(lMap);
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>

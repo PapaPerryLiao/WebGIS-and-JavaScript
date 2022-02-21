@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TGOS MAP API for Web 地址定位</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="https://api.tgos.tw/TGOS_API/tgos?ver=2&AppID=yourAPIId&APIKey=yourAPIkey"
+        charset="utf-8"></script>
+    <!--下載後請將yourID及yourkey取代為您申請所取得的APPID及APIKEY方能正確顯示服務-->
+    <script type="text/javascript">
+        var map;
+        var marker;
+        function Locate() {
+            const locator = new TGOS.TGLocateService();
+            let addressInput = document.getElementById('address');
+
+            locator.locateWGS84({
+                address: addressInput.value
+            }, (e, status) => {
+                const location = e[0].geometry.location;
+
+                if (status != TGOS.TGLocatorStatus.OK) {
+                    return;
+                }
+                marker = new TGOS.TGMarker(map, e[0].geometry.location);
+                map.fitBounds(e[0].geometry.viewport);
+                document.getElementById("addrXY").innerHTML = `X坐標： ${location.x}，Y坐標： ${location.y}`;
+            });
+        }
+        function main() {
+            const TMap = document.getElementById("map");
+            map = new TGOS.TGOnlineMap(TMap, TGOS.TGCoordSys.EPSG3857);
+        };
+
+        function Locate() {
+            const locator = new TGOS.TGLocateService();
+            let districtInput = document.getElementById('district');
+
+            locator.locateWGS84({
+                district: districtInput.value
+            }, (e, status) => {
+                if (status != TGOS.TGLocatorStatus.OK) {
+                    console.log('查無行政區');
+                } else {
+                    result.pointList = e[0].geometry.geometry
+                        .rings_[0].linestring.path.map((item) => [item.y, item.x]);
+                }
+            })
+
+        }
+
+    </script>
+</head>
+
+<body onload="main()">
+    <div id="map" style="width:640px;height:480px;border: 1px solid #C0C0C0;"></div>
+    <div id="addrXY" style="width:640px;height:25px;border: 1px solid #C0C0C0;"></div>
+    地址定位 :
+    <input style="width:40%" id='address' value='台北市信義區信義路五段7號'>
+    <input type="submit" value="地址定位" onclick="Locate()">
+</body>
+
+</html>

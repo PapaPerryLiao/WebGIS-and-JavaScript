@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>坐標定位</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="proj4.js"></script>
+    <style>
+        #lmap {
+            height: 100vh;
+            width: 100%;
+        }
+
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .search {
+            position: absolute;
+            z-index: 999;
+            bottom: 10px;
+            left: 10px;
+            border: 1px ridge #000;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="search">
+        <div>
+            <label>X坐標: <input type="text" name="" id="x" value="248172"></label><br />
+            <label>Y坐標: <input type="text" name="" id="y" value="2652130"></label>
+        </div>
+        <label><input type="radio" name="coordinate" id="" value="WGS84">經緯度</label>
+        <label><input type="radio" name="coordinate" id="" value="TWD97" checked>二度分帶</label>
+        <input type="button" id="btnSearch" value="定位">
+    </div>
+    <div id="lmap"></div>
+    <script>
+        const lMap = L.map(document.getElementById("lmap"), {
+            center: [23.5, 121],
+            zoom: 7,
+            crs: L.CRS.EPSG3857,
+        });
+        L.tileLayer(
+            "https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoicGVycnlsaWFvIiwiYSI6ImNrdGVkYWJueTJveWEycm84NzZrMXJyZjAifQ.s8EyAc5U3E1c7wcN1qlE9w",
+            {
+                maxZoom: 18,
+                attribution:
+                    '© <a href="https://www.mapbox.com/feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+                id: "mapbox.streets",
+            }
+        ).addTo(lMap);
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
