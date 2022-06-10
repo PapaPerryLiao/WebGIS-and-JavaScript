@@ -1,48 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>會跳動的Marker(bouncemarker)</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-    <script src="http://maximeh.github.io/leaflet.bouncemarker/bouncemarker.js"></script>
+    <script src="https://maximeh.github.io/leaflet.bouncemarker/bouncemarker.js"></script>
     <style>
-        html,
-        body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
 
-        #lmap {
-            width: 100%;
-            height: 100vh;
-        }
+      #lmap {
+        width: 100%;
+        height: 100vh;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="lmap"></div>
     <script>
-        const lMap = L.map(document.getElementById("lmap"), {
-            center: [23.5, 121],
-            zoom: 7,
-            crs: L.CRS.EPSG3857,
-        });
-        L.tileLayer(
-            "https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoicGVycnlsaWFvIiwiYSI6ImNrdGVkYWJueTJveWEycm84NzZrMXJyZjAifQ.s8EyAc5U3E1c7wcN1qlE9w",
-            {
-                maxZoom: 18,
-                attribution:
-                    '© <a href="https://www.mapbox.com/feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-                id: "mapbox.streets",
-            }
-        ).addTo(lMap);
+      const lMap = L.map(document.getElementById("lmap"), {
+        center: [23.5, 121],
+        zoom: 7,
+        crs: L.CRS.EPSG3857,
+      });
+      L.tileLayer(
+        "https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoicGVycnlsaWFvIiwiYSI6ImNrdGVkYWJueTJveWEycm84NzZrMXJyZjAifQ.s8EyAc5U3E1c7wcN1qlE9w",
+        {
+          maxZoom: 18,
+          attribution:
+            '© <a href="https://www.mapbox.com/feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+          id: "mapbox.streets",
+        }
+      ).addTo(lMap);
     </script>
     <script src="index.js"></script>
-</body>
-
+  </body>
 </html>
