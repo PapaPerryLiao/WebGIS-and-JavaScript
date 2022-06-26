@@ -32,13 +32,15 @@ const ShowPolygon = (dataList = []) => {
 //     });
 // };
 
-// use proxy server
+// use proxy server on local
 // https://github.com/garmeeh/local-cors-proxy
+// use proxy server for github page 
+// https://corsproxy.io/
 const SearchData = ({ polyStr }) => {
     axios({
         method: "post",
-        url: `http://localhost:8010/proxy/MoeaEGFxData_WebAPI_Inside/InnoServe/BusinessBUSM`,
-        // url: `https://egis.moea.gov.tw/MoeaEGFxData_WebAPI_Inside/InnoServe/BusinessBUSM`,
+        // url: `http://localhost:8010/proxy/MoeaEGFxData_WebAPI_Inside/InnoServe/BusinessBUSM`,
+        url: 'https://corsproxy.io/?' + encodeURIComponent('https://egis.moea.gov.tw/MoeaEGFxData_WebAPI_Inside/InnoServe/BusinessBUSM'),
         data: {
             PolygenStr: polyStr,
             respType: "geojson",

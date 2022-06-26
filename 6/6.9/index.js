@@ -18,13 +18,15 @@ const option = {
 const drawControl = new L.Control.Draw(option);
 lMap.addControl(drawControl);
 
-// use proxy server
+// use proxy server on local
 // https://github.com/garmeeh/local-cors-proxy
+// use proxy server for github page 
+// https://corsproxy.io/
 const SearchData = ({ polyStr }) => {
     axios({
         method: "post",
-        url: `http://localhost:8010/proxy/MoeaEGFxData_WebAPI_Inside/InnoServe/LandMark`,
-        // url: `https://egis.moea.gov.tw/MoeaEGFxData_WebAPI_Inside/InnoServe/LandMark`,
+        //url: `http://localhost:8010/proxy/MoeaEGFxData_WebAPI_Inside/InnoServe/LandMark`,
+        url: 'https://corsproxy.io/?' + encodeURIComponent('https://egis.moea.gov.tw/MoeaEGFxData_WebAPI_Inside/InnoServe/LandMark'),
         data: {
             PolygenStr: polyStr,
             respType: "geojson",
