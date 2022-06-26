@@ -1,10 +1,10 @@
-const heatmapInstance = h337.create({
-    container: document.querySelector("#heatmap"), //存放heatmap的div
-});
+// const heatmapInstance = h337.create({
+//     container: document.querySelector("#heatmap"), //存放heatmap的div
+// });
 
 // 客製化熱區圖樣式
 const heatmapInstance = h337.create({
-    container: document.querySelector(".heatmap"),
+    container: document.querySelector("#heatmap"),
     backgroundColor: "rgba(0,0,0,.75)",
     //radius: 30,
     gradient: {
