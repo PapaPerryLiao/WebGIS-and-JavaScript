@@ -2,7 +2,7 @@ const getLocation = () => {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition);
     } else {
-        x.innerHTML = "Geolocation is not supported by this browser.";
+        console.log("Geolocation is not supported by this browser.");
     }
 };
 
@@ -12,7 +12,7 @@ const showPosition = (position) => {
 
     const marker = L.marker([lat, lng]).addTo(lMap);
 
-    let popup = L.popup().setLatLng([lat, lng]).setContent(`lat: ${lat}, lng: ${lng}`).openOn(lMap);
+    const popup = L.popup().setLatLng([lat, lng]).setContent(`lat: ${lat}, lng: ${lng}`).openOn(lMap);
 
     marker.bindPopup(popup);
 };
