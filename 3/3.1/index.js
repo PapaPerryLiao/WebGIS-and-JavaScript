@@ -1,11 +1,11 @@
 const EXTENT = [-Math.PI * 6378137, Math.PI * 6378137];
 
 const xyzToBounds = (x, y, z) => {
-    var tileSize = (EXTENT[1] * 2) / Math.pow(2, z);
-    var minx = EXTENT[0] + x * tileSize;
-    var maxx = EXTENT[0] + (x + 1) * tileSize;
-    var miny = EXTENT[1] - (y + 1) * tileSize;
-    var maxy = EXTENT[1] - y * tileSize;
+    const tileSize = (EXTENT[1] * 2) / Math.pow(2, z);
+    const minx = EXTENT[0] + x * tileSize;
+    const maxx = EXTENT[0] + (x + 1) * tileSize;
+    const miny = EXTENT[1] - (y + 1) * tileSize;
+    const maxy = EXTENT[1] - y * tileSize;
     return [minx, miny, maxx, maxy];
 };
 
@@ -18,7 +18,7 @@ const getTileUrl = (coordinates, zoom) => {
 };
 
 const imageLayer = new google.maps.ImageMapType({
-    getTileUrl: getTileUrl,
+    getTileUrl,
     name: "LANDSECT",
     alt: "LANDSECT",
     minZoom: 0,
